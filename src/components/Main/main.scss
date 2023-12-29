@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+.clockContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+        font-size: 3vw;
+        padding: 1vw;
+    }
+}
+
+.scoreContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    button {
+        font-size: 5vw;
+        padding: 2vw;
+    }
+}
+
+.leftSide, .rightSide {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clockButtonContainer {
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    button {
+        font-size: 5vw;
+    }
+}

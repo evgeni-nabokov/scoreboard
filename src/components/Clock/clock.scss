@@ -1,0 +1,17 @@
+.clock {
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+    font-size: 15vw;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: "Chivo Mono", monospace;
+
+    .colon {
+        padding: 0;
+        margin: 0 -2vw;
+        flex: 0 1 auto;
+    }
+}

@@ -1,0 +1,17 @@
+.score {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 auto;
+    font-size: 30vw;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Chivo Mono', monospace;
+
+    .colon {
+        padding: 0;
+        margin: 0 -5vw;
+        flex: 0 1 auto;
+    }
+}
